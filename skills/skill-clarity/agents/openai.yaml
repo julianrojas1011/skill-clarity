@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Clarity"
+  short_description: "Understand skill overlaps and keep useful capabilities"
+  default_prompt: "Use $skill-clarity to review my skill collection and explain which skills compete, complement each other, or need clearer boundaries."

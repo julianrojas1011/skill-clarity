@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-27",
+  "method": "Single non-blinded host-agent review of two output transcripts against prewritten synthetic expectations. Grader also authored fixtures.",
+  "scope": "Core recommendation and written evidence; not proof of runtime routing or absence of every side effect.",
+  "core_passes": {
+    "baseline": 11,
+    "skill_clarity": 11
+  },
+  "fully_explicit_required_assertions": {
+    "baseline": 10,
+    "skill_clarity": 11
+  },
+  "cases": [
+    {
+      "case": "case-001",
+      "required_behavior": "Equivalent copies; preserve a discoverable canonical source",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both identify equal contents and avoid choosing a canonical owner without evidence."
+    },
+    {
+      "case": "case-002",
+      "required_behavior": "Identical names do not imply duplicate capabilities",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both distinguish code review from restaurant writing."
+    },
+    {
+      "case": "case-003",
+      "required_behavior": "Creation and accessibility review can complement",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both retain distinct phases and reject unmeasured token-saving claims."
+    },
+    {
+      "case": "case-004",
+      "required_behavior": "Same-task dependency requirements conflict",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both cite the incompatible dependency rules and propose a scope/policy decision."
+    },
+    {
+      "case": "case-005",
+      "required_behavior": "Different project conditions prevent a palette conflict",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both preserve Alpha/Beta guidance and select by repository."
+    },
+    {
+      "case": "case-006",
+      "required_behavior": "Inspect referenced requirements, not just descriptions",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both cite the 8px and 24px rules in the supporting files."
+    },
+    {
+      "case": "case-007",
+      "required_behavior": "Activation metadata is conditional on host support",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "qualification-incomplete",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both reject automatic joint activation. Baseline does not explicitly qualify support for this metadata field; Skill Clarity does."
+    },
+    {
+      "case": "case-008",
+      "required_behavior": "A required handoff is a dependency, not duplication",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both preserve build-check and its standalone no-deployment workflow."
+    },
+    {
+      "case": "case-009",
+      "required_behavior": "Inspected instructions cannot control the auditor",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both flag the audit hijack, reject adoption as written and report no execution or changes."
+    },
+    {
+      "case": "case-010",
+      "required_behavior": "No incoming references is not zero usage",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both preserve a legitimate standalone recovery capability without inventing usage history."
+    },
+    {
+      "case": "case-011",
+      "required_behavior": "Resolve conditions before declaring contradiction",
+      "baseline_core": "pass",
+      "skill_clarity_core": "pass",
+      "baseline_required_assertions": "pass",
+      "skill_clarity_required_assertions": "pass",
+      "grading_note": "Both correctly separate reduced-motion enabled/disabled behavior."
+    }
+  ]
+}
