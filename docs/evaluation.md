@@ -55,7 +55,7 @@ Run deterministic regression checks from the repository root:
 python3 -m unittest discover -s tests -v
 ```
 
-The current local runs passed **44/44 tests** on macOS with Python 3.9.6 (approximately 2.6 seconds) and Python 3.12.14 (approximately 1.8 seconds). The supported target is Python 3.10+; Python 3.10 itself and non-macOS systems have not been executed locally. The FIFO check is POSIX-specific and is skipped on systems without FIFO support. Hosted CI is configured, not yet observed running.
+The current local runs passed **44/44 tests** on macOS with Python 3.9.6 (approximately 2.6 seconds) and Python 3.12.14 (approximately 1.8 seconds). The supported target is Python 3.10+; Python 3.10 itself and non-macOS systems have not been executed locally. The FIFO check is POSIX-specific and is skipped on systems without FIFO support. Hosted CI also passed on Ubuntu with Python 3.10 and 3.12 for the first public commit `e4f06ed6dcedd179c47588c5257de6bb0de86fbe`: [verified run](https://github.com/julianrojas1011/skill-clarity/actions/runs/40539312736). Publication was verified on 2026-10-28 (Asia/Shanghai); all 46 public files matched the tested local files byte for byte.
 
 A separate end-to-end agent exercised the completed scan → authored review → citation validation → HTML rendering workflow on cases 003, 004 and 006. All three findings passed source validation, and fixture hashes remained unchanged. The resulting [synthetic demo](demo.html) contains no absolute user paths. This validates the workflow on those fixtures, not runtime activation or semantic accuracy on arbitrary collections.
 

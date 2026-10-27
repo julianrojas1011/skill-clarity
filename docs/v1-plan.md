@@ -1,6 +1,6 @@
 # Skill Clarity v0.1
 
-Status: v0.1 experimental implementation complete locally. Deterministic tests and exploratory evaluation are recorded in [evaluation.md](evaluation.md). Public publication is a separate delivery step; release claims must follow that record, not this plan.
+Status: v0.1 experimental is [published on GitHub](https://github.com/julianrojas1011/skill-clarity). Deterministic tests and exploratory evaluation are recorded in [evaluation.md](evaluation.md). Release claims must follow that record, not this plan.
 
 ## User problem
 
